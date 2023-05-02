@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1 id="titulo">Personalize Seu Texto</h1>
+                <!--Mudar Titulo-->
+                <h3>Mudar Titulo</h3>
+                <input type="text" id="input" class="inputtext" placeholder="Mudar Titulo">
+                    <input type="button" value="Mudar Titulo" id="button" onclick="mudartitulo()">
+
+                <!--Mudar Fonte-->
+                <h3>Mudar Fonte</h3>
+                    <input type="button" id="button" value="Font:Georgia" onclick="georgia()">
+                    <input type="button" id="button" value="Font:Cambria" onclick="cambria()">
+                    <input type="button" id="button" value="Font:Arial" onclick="arial()">
+                    <input type="button" id="button" value="Font:Lucida" onclick="lucida()">
+                    <input type="button" id="button" value="Font:Verdana" onclick="verdana()">
+
+                <!--Mudar Tamanho-->
+                <h3>Mudar Tamanho</h3>
+                    <input type="text" id="input" class="inputtamanho" placeholder="Ex: 26px">
+                    <input type="button" id="button" value="Mudar Tamanho" onclick="mudartamanho()">
+
+                <!--Mudar cor-->
+                    <h3>Mudar Cor</h3>
+                        <input type="color" id="color">
+                        <input type="button" id="button" value="Mudar Cor" onclick="mudarcor()">
+
+        </section>
+    </main>
+<script src="script.js"></script> 
+</body>
+</html>
